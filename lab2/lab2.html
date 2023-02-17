@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab2 - anacotokomu:)</title>
+    <link rel="stylesheet" href="./lab2css.css">
+</head>
+<body>
+    <main class="slider">
+        <section class="slider__container">
+            <button class="slider__button slider__button--prev" bata-button-prev></button>
+            <figure class="slide" data-slide></figure>
+            <button class="slider__button slider__button--next" data-button-next></button>
+        </section>
+    </main>
+    <script src="./lab2js.js"></script>
+
+    <!--przekazanie tablicy z obrazkami w klasie script oraz stworzenie slidera-->
+    <script>
+        const imageArray = [
+            './sans.jpg',
+            './mettaton.jpg',
+            './papyrus.jpeg'
+        ]
+
+        const slider  = new Slider(imageArray)
+        slider.initializeSlider()
+    </script>
+</body>
+</html>
