@@ -1,0 +1,43 @@
+.body-input{
+    text-align:center;
+    border: solid 1px black;
+    width:20%;
+    background-color: pink;
+    padding-bottom:10px;
+    float: left;
+    
+  }
+
+  .row {
+    float: right;
+    width: 70%; 
+    font-size:25px;
+    padding-right:5rem;
+  }
+
+  h1{
+    text-align:center;
+  }
+
+  .btn{
+    background-color: black;
+    color:white;
+  }
+
+  .card-title{
+    text-align:center;
+    font-size: 30px;
+  }
+
+  .card-text{
+    text-align:center;
+  }
+
+  .card-text-date{
+    font-size:15px;
+  }
+
+  .pin-button:hover{
+    background-color:gray;
+    
+  }
