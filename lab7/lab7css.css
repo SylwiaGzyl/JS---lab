@@ -1,0 +1,55 @@
+.form-control {
+    border-style: solid 1 px black;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+}
+
+.card-title {
+    color: white;
+    text-align: center;
+    padding: 2px;
+    background-color: black;
+    border: 1px solid pink;
+    color:white;
+}
+
+.card-body {
+    background-color:pink;
+    margin:10px;
+    padding-left:5px;
+    padding-right:5px;
+    text-align:center;
+    
+}
+
+.card {
+    
+    width:250px;
+    float:left;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+}
+
+.row{
+    padding-left:5rem;
+    width:70%;
+    float:right;
+}
+
+.body-input{
+    float:left;
+    border:solid 1px black;
+    padding-bottom:5px;
+    text-align:center;
+    background-color: pink;
+}
+
+h1{
+    text-align:center;
+}
